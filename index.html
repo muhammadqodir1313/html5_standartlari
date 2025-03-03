@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5_Standartlari</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        .langar{
+            position: fixed;
+            top: 0%;
+            left: 20px;
+            background-color: black;
+            color: aliceblue;
+            font-size: 30px;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 5px 10px 5px silver;
+            transition: 0.5s;
+            transform: rotate(-45deg);
+        }
+        .langar:hover{
+            background-color: brown;
+            font-size: 40px;
+            transform: rotate(45deg) scale(1.5);
+        }
+    </style>
 </head>
 <body>
     <h1>Mundarija</h1>
 
-    <a href="#">Sarlavha 1</a>
-    <a href="#">Sarlavha 2</a>
-    <a href="#">Sarlavha 3</a>
-    <a href="#">Sarlavha 4</a>
+    <a href="#s1">Sarlavha 1</a>
+    <a href="#s2">Sarlavha 2</a>
+    <a href="#s3">Sarlavha 3</a>
+    <a href="#s4">Sarlavha 4</a>
     <h2 id="s1">sarlavha 1</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, quos maxime? Fugiat beatae aperiam facere saepe quasi minus dicta ad aspernatur, accusantium ipsam voluptates vitae ex architecto commodi recusandae alias.
     Expedita voluptas asperiores quidem magni delectus dolor nisi repellat doloribus, aliquid tenetur est molestiae commodi rerum voluptatem praesentium vero eum sit maiores adipisci incidunt ducimus. Expedita nihil quibusdam dolores voluptate?
@@ -37,5 +61,6 @@
     Saepe aperiam velit ipsam quam quas facilis ullam corporis nam fuga. Nisi, eveniet quidem illum incidunt, nesciunt unde alias ad praesentium a consectetur saepe facilis obcaecati, corrupti vitae? Reprehenderit, distinctio.
     Voluptates sequi in perspiciatis. Reprehenderit, libero nostrum facilis quas laudantium asperiores repudiandae corporis, fugiat sapiente eum nobis odit. Repellat impedit consectetur accusamus. Expedita dolor, in corporis assumenda nisi quam pariatur!</p>
 
+    <a href="#s1" class="langar">^</a>
 </body>
 </html>
